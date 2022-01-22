@@ -62,7 +62,7 @@
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "a55276d0-9020-4914-b493-962025bc7311",
+            "description": "ab59690b-d749-401f-aa29-7cfcafbff626",
             "required": true
         },
         "MUTE_MESSAGE": {
@@ -96,7 +96,7 @@
             "value": "private"
         },
         "HEROKU_APP_NAME": {
-            "description": "frox-asena",
+            "description": "froxasena2",
             "required": true
         },
         "DEBUG": {
