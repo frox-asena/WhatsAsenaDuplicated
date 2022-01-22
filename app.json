@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "ASENA;;;eyJjbGllbnRJRCI6Ii9ieU9FbzV3R1lJQjQ0TGZ1SXJPTmc9PSIsInNlcnZlclRva2VuIjoiMUBEcVdGQzZqZituUEZySVFPVFV0U3lLV0Y1cHhCVFBTT1oyVnpVTGVHeDBFcnM2Q0JqOHZtcVpEWWw5YVV5QmptS0JGQ2tRbGFUN0lQdEE9PSIsImNsaWVudFRva2VuIjoiSExiWk5JMFhDZHRoTUw4T2lwemRxN3RMNVVrc3ZoL21Yam5pa1AwS0V3dz0iLCJlbmNLZXkiOiI1M2R5QlcyUDhaN1k4aVcrd0pZTi9nakJTS3BHV3IzYndiVHFTN2lIZ1djPSIsIm1hY0tleSI6IjdMTUZZSmU2MWZBMW52eFBvMktJQU1PUVZjRFdIeTdYV051cXc3N3g5dzQ9In0=",
             "required": true
         },
         "SUDO": {
@@ -62,7 +62,7 @@
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "Herokuda API Keyiniz. Heroku API Key. ===> https://t.me/herokuapikeyscraper",
+            "description": "a55276d0-9020-4914-b493-962025bc7311",
             "required": true
         },
         "MUTE_MESSAGE": {
@@ -96,7 +96,7 @@
             "value": "private"
         },
         "HEROKU_APP_NAME": {
-            "description": "Herokuda uygulama adı. App Name ile aynı olmalıdır! Heroku APP Name. Must be the same as the App name!",
+            "description": "frox-asena",
             "required": true
         },
         "DEBUG": {
