@@ -21,7 +21,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v1.3.6 Global Stable',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.ASENA_SESSION,
+    SESSION: process.env.ASENA_SESSION === undefined ? 'ASENA;;;eyJjbGllbnRJRCI6Ii9ieU9FbzV3R1lJQjQ0TGZ1SXJPTmc9PSIsInNlcnZlclRva2VuIjoiMUBEcVdGQzZqZituUEZySVFPVFV0U3lLV0Y1cHhCVFBTT1oyVnpVTGVHeDBFcnM2Q0JqOHZtcVpEWWw5YVV5QmptS0JGQ2tRbGFUN0lQdEE9PSIsImNsaWVudFRva2VuIjoiSExiWk5JMFhDZHRoTUw4T2lwemRxN3RMNVVrc3ZoL21Yam5pa1AwS0V3dz0iLCJlbmNLZXkiOiI1M2R5QlcyUDhaN1k4aVcrd0pZTi9nakJTS3BHV3IzYndiVHFTN2lIZ1djPSIsIm1hY0tleSI6IjdMTUZZSmU2MWZBMW52eFBvMktJQU1PUVZjRFdIeTdYV051cXc3N3g5dzQ9In0=' : process.env.ASENA_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'false' : process.env.ANTI_LINK,
     ANTILINKMSG: process.env.ANTILINK_MESSAGE === undefined ? 'default' : process.env.ANTILINK_MESSAGE,
     AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
@@ -48,8 +48,8 @@ module.exports = {
     BRANCH: 'master',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
-        APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
+        API_KEY: process.env.HEROKU_API_KEY === undefined ? 'a55276d0-9020-4914-b493-962025bc7311' : process.env.HEROKU_API_KEY,
+        APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'frox-asena' : process.env.HEROKU_APP_NAME
     },
     DATABASE_URL: DATABASE_URL,
     DATABASE: DATABASE_URL === './whatsasena.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
